@@ -18,7 +18,6 @@ const userData = async(req, res) => {
 
 }
 
-
 const viewUser = async(req,res) => {
     try {
         const fetchData = await User.find({})
