@@ -12,8 +12,7 @@ const userData = async(req, res) => {
         console.log(sumbit);
         res.status(200).json({message: "successfully create your account",sumbit})
     } catch (error) {
-        console.log(error);
-        
+        console.log(error);  
     }
 
 }
